@@ -30,7 +30,7 @@ class LoginPage:
         self.root = root
         self.root.title("Hotel Management Login")
         self.root.state("zoomed")  # full screen
-        self.root.resizable(False, False)
+        # self.root.resizable(False, False)
 
         # === Background image ===
         # put bg.jpg in same folder
