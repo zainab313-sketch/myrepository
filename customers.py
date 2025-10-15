@@ -37,7 +37,7 @@ class Cust_Win:
         lbl_title.place(x=0, y=0, width=1043, height=40)
 
         # ================logo=================
-        img_path = r"C:/Users/hp/OneDrive/Desktop/Hotel management system/maxwell.png"
+        img_path = r"C:/Users/hp/Downloads/Hotel management pics/maxwell.png"
 
         if os.path.exists(img_path):
             img3 = Image.open(img_path)

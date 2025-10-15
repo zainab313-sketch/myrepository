@@ -13,7 +13,7 @@ class HotelManagement:
         self.root.geometry("1350x700+0+0")
 
         # ============ist img ===============
-        img_path = r"C:/Users/hp/OneDrive/Desktop/Hotel management system/33.png"
+        img_path = r"C:/Users/hp/Downloads/Hotel management pics/header.png"
 
         if os.path.exists(img_path):
             img1 = Image.open(img_path)
@@ -29,7 +29,7 @@ class HotelManagement:
             lblimg.place(x=100, y=100)
 
         # ================logo=================
-        img_path = r"C:/Users/hp/OneDrive/Desktop/Hotel management system/maxwell.png"
+        img_path = r"C:/Users/hp/Downloads/Hotel management pics/maxwell.png"
 
         if os.path.exists(img_path):
             img2 = Image.open(img_path)
@@ -83,7 +83,7 @@ class HotelManagement:
         frame_height = 480
 
         img3 = Image.open(
-            "C:/Users/hp/OneDrive/Desktop/Hotel management system/main1.png")
+            "C:/Users/hp/Downloads/Hotel management pics/mainframe.png")
 
         img3 = img3.resize((frame_width, frame_height),
                            Image.Resampling.LANCZOS)
@@ -99,7 +99,7 @@ class HotelManagement:
         frame_height = 130
 
         img4 = Image.open(
-            "C:/Users/hp/OneDrive/Desktop/Hotel management system/food.jpg")
+            "C:/Users/hp/Downloads/Hotel management pics/meal.jpg")
 
         img4 = img4.resize((frame_width, frame_height),
                            Image.Resampling.LANCZOS)
@@ -113,7 +113,7 @@ class HotelManagement:
         frame_height = 130
 
         img5 = Image.open(
-            "C:/Users/hp/OneDrive/Desktop/Hotel management system/R.jpg")
+            "C:/Users/hp/Downloads/Hotel management pics/side.jpg")
 
         img5 = img5.resize((frame_width, frame_height),
                            Image.Resampling.LANCZOS)

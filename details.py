@@ -28,7 +28,7 @@ class RoomDetails:
         lbl_title.place(x=0, y=0, width=1043, height=40)
 
         # ================logo=================
-        img_path = r"C:/Users/hp/OneDrive/Desktop/Hotel management system/maxwell.png"
+        img_path = r"C:/Users/hp/Downloads/Hotel management pics/maxwell.png"
 
         if os.path.exists(img_path):
             img3 = Image.open(img_path)
@@ -44,7 +44,7 @@ class RoomDetails:
             labelframeleft.place(x=5, y=43, width=480, height=350)
 
         # ===========left side image=================
-        img_path = r"C:/Users/hp/OneDrive/Desktop/Hotel management system/bed3.png"
+        img_path = r"C:/Users/hp/Downloads/Hotel management pics/bed2.png"
 
         if os.path.exists(img_path):
             img0 = Image.open(img_path)

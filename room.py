@@ -35,7 +35,7 @@ class Room_Booking:
         lbl_title.place(x=0, y=0, width=1043, height=40)
 
         # ================logo=================
-        img_path = r"C:/Users/hp/OneDrive/Desktop/Hotel management system/maxwell.png"
+        img_path = r"C:/Users/hp/Downloads/Hotel management pics/maxwell.png"
 
         if os.path.exists(img_path):
             img3 = Image.open(img_path)
@@ -194,7 +194,7 @@ class Room_Booking:
         btn_reset.grid(row=11, column=0, padx=0)
 
     # ===========right side image=================
-        img_path = r"C:/Users/hp/OneDrive/Desktop/Hotel management system/bed3.png"
+        img_path = r"C:/Users/hp/Downloads/Hotel management pics/bed3.png"
 
         if os.path.exists(img_path):
             img8 = Image.open(img_path)
